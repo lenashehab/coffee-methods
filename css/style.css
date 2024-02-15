@@ -1,0 +1,406 @@
+@import url(https://db.onlinewebfonts.com/c/c0ac0624542264aa93dede959f54d0fc?family=Retro+Signature);
+@font-face {
+  font-family: "Retro Signature";
+  src: url("https://db.onlinewebfonts.com/t/c0ac0624542264aa93dede959f54d0fc.eot");
+  src: url("https://db.onlinewebfonts.com/t/c0ac0624542264aa93dede959f54d0fc.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/c0ac0624542264aa93dede959f54d0fc.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/c0ac0624542264aa93dede959f54d0fc.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/c0ac0624542264aa93dede959f54d0fc.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/c0ac0624542264aa93dede959f54d0fc.svg#Retro Signature")format("svg");
+}
+@import url(https://db.onlinewebfonts.com/c/83e4a6b639612cd501853be5a7cf97ab?family=Trend+Sans+One+Regular);
+@font-face {
+  font-family: "Trend Sans One Regular";
+  src: url("https://db.onlinewebfonts.com/t/83e4a6b639612cd501853be5a7cf97ab.eot");
+  src: url("https://db.onlinewebfonts.com/t/83e4a6b639612cd501853be5a7cf97ab.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/83e4a6b639612cd501853be5a7cf97ab.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/83e4a6b639612cd501853be5a7cf97ab.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/83e4a6b639612cd501853be5a7cf97ab.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/83e4a6b639612cd501853be5a7cf97ab.svg#Trend Sans One Regular")format("svg");
+}
+ :root{
+ --mycolor-color-C5CED9:#C5CED9;
+ --mycolor-color-8E8E8E: #8E8E8E;
+ --mycolor-color-FFFFFF: #FFFFFF;
+ --mycolor-color-151412:#151412;
+ --mycolor-color-BBBBBB: #BBBBBB;
+ --mycolor-color-688382:#688382;
+ --mycolor-color-8E8E8E: #8E8E8E;
+ --mycolor-color-D5DBE3: #D5DBE3;
+}
+.retro-font{
+  font-family: "Retro Signature";
+}
+.trend-font{
+  font-family: "Trend Sans One Regular";
+}
+.open-sans-font{
+  font-family: 'Open Sans', sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+h1{
+  font-size: 105px;
+  color: #C5CED9;
+}
+h2{
+  font-size:95px;
+  letter-spacing: -2px;
+  line-height: 67px;
+}
+h4{
+  font-size: 32px;
+}
+h6{
+  font-size:20px;
+}
+p{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+.p-small{
+  font-size: 14px;
+}
+.small-header{
+  font-family: "Retro Signature";
+}
+.nav-item .lang a{
+  list-style: none;
+  text-decoration: none;
+}
+h1,h2,h6,h4{
+  font-family: "Retro Signature";
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  color: #151412;
+}
+/* progress barr */
+#progress-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #151412;
+  z-index: 1000;
+  transition: width 0.2s ease-out;
+}
+/* navbar */
+.navbar{
+  background-color: #BBBBBB;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.nav-item a{
+  color: #6E6E6E;
+  font-family: "Trend Sans One Regular";
+  font-size: 14px;
+}
+.nav-link:hover{
+  color:#151412 ;
+}
+.btn-nav{
+  color: #151412;
+  padding:10px 15px;
+  background-color: transparent;
+  font-size: 14px;
+  border:2px solid #151412;
+}
+.btn-nav:hover{
+  background-color: #151412;
+  color: #FFFFFF;
+  border:2px solid #FFFFFF;
+}
+/* main page */
+.main-page{
+  background-color: #BBBBBB;
+  background-image:url('../img/coffeebackground.webp');
+  background-position: center;
+  background-size:contain;
+}
+/* home */
+.home{
+background-image: url('../img/homeimg.webp');
+background-position:top;
+background-size:cover;
+background-repeat: no-repeat;
+height: 100vh;
+/* position: relative; */
+}
+.home-text-img img{
+  width: 60%;
+}
+.home-content{
+  position: relative;
+  top:-60px;
+  /* transform: translate(50%,50%); */
+}
+.menu-bar{
+  width:44px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.fa-solid.fa-magnifying-glass{
+  margin-right: 70px;
+  margin-left: 20px;
+}
+/* about us */
+.about-us{
+  background-image: url('../img/2.png');
+  background-position:left bottom;
+  background-repeat: no-repeat;
+  background-size:40%;
+  p{
+    color: #8E8E8E;
+  }
+}
+.cup-img img{
+  width:70%;
+}
+.cup-img{
+  background-image: url('../img/1.png');
+  background-position:right top;
+  background-repeat: no-repeat;
+  background-size:100%;
+  display: flex;
+ justify-content: center;
+}
+.timeline{
+  background-image: url('../img/line.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.timeline-content{
+  background-image: url('../img/Group 4837.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+/* our services */
+.card-one{
+  background-color: #A8BFBB;
+  background-image: url('../img/Mask-Group-17.webp');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+.card-two{
+  background-color: #C5CED9;
+  background-image: url('../img/Mask-Group-18.webp');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.card-three{
+  background-color: #BBBBBB;
+  background-image: url('../img/Mask-Group-19.webp');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:bottom;
+}
+
+.service-icon img{
+  width:80px;
+}
+.service-icon-mobile img{
+  width: 55px;
+}
+.service-icon{
+  height: 95px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-bottom: 29.9px;
+}
+.service-card{
+  padding-top: 50px;
+  height: 390px;
+  color: #FFFFFF;
+}
+.our-services .small-header{
+  color: #A8BFBB;
+}
+
+/* O U R PR O D U C T S */
+.our-products p{
+  color: #A8BFBB;
+}
+.our-products .owl-carousel .item .img{
+  width: 100%;
+  /* object-fit:contain; */
+}
+.our-products .drink-img{
+  width:85%;
+  height:255px;
+  overflow: hidden;
+  background-color: blueviolet;
+}
+.our-products .item{
+  width:85%;
+}
+.our-products .item h6{
+  font-family: "Trend Sans One Regular";
+}
+/* news and events */
+.news-events img{
+  width: 100%;
+}
+.date{
+  font-size: 12px;
+  color: #BBBBBB;
+}
+.layer{
+  background-color:rgba(0, 0, 0, .4);
+  position: absolute;
+  bottom:30px;
+  right: 15px;
+  width: 90%;
+  z-index: 1111;
+  padding:10px;
+  font-family: "Trend Sans One Regular";
+  color: #FFFFFF;
+  opacity: 0;
+}
+.news-events:hover .layer{
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+.news-events{
+  position: relative;
+}
+/* partners */
+.partners{
+  background-color: #C5CED9;
+  background-image: url('../img/Group 238955.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  p{
+    color: #8E8E8E;
+  }
+  h6{
+      font-family: "Trend Sans One Regular";
+  }
+  .small-header{
+    color: #FFFFFF;
+  }
+}
+.partner-img{
+background-color: #FFFFFF;
+margin-right:22px;
+padding:0px 15px;
+height: 130px;
+display: flex;
+align-items: center;
+}
+.partner-box .partner-img{
+border: 2px solid #707070;
+}
+.partner-img img{
+  width: 100%;
+}
+.partner-box{
+  background-color: #D5DBE3;
+  padding: 12px;
+}
+/* owl */
+.item .partner-img:hover{
+  border: #707070 2px solid;
+}
+/* footer */
+.footer p.p-small{
+  color: #6E6E6E;
+}
+.footer{
+  h2,.small-header{
+    color: #FFFFFF;
+  }
+  .fs-0{
+    font-size: 73px;
+  }
+}
+.icons i{
+    padding-right: 25px;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img{
+    width:105px;
+  }
+  span{
+    font-weight:bold;
+    color: #151412;
+  }
+}
+.news-letter-box{
+  background-color: #A8BFBB;
+  background-image: url('../img/2.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50%;
+  border: 5px solid #FFFFFF;
+  padding: 40px;
+}
+.icon-subscribe {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#F2F2F2;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color:#688382;
+}
+.news-letter-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lightb {
+  height: 50px;
+  padding-left:48px;
+  border: none;
+  width: 100%;
+}
+.my-btn-subscribe{
+  background-color: #151412;
+  color:#FFFFFF;
+  border: none;
+  padding:7px 30px 7px 30px;
+  font-size: 13px;
+  margin-right: 10px;
+  font-family: "Trend Sans One Regular";
+}
+.form{
+  width:40%;
+}
+::placeholder{
+  color:#BBBBBB;
+}
+.shape-div{
+  position: relative;
+}
+.shape-div::after{
+  content:" ";
+  background-color: #BBBBBB;
+  position: absolute;
+  left: 0;
+  top:50px;
+  z-index: -1;
+  width:100%;
+  height:95%;
+  clip-path: polygon(60% 0, 0% 100%, 100% 100%);
+}
+.footer-links{
+background-color: #BBBBBB;
+}
