@@ -424,10 +424,10 @@
 </section>
 
 <!-- preloader -->
- <!-- <div class="preloader"> -->
+ <div class="preloader">
   
   <!-- marquee -->
-   <!-- <div class="marquee">
+   <div class="marquee">
   <div class="marquee-content">
   <img src="img/marque.png" alt="">
  <img src="img/marque.png" alt="">
@@ -454,7 +454,7 @@
         </div>
     </div>
     </div>
-</div>  -->
+</div> 
 
 
 <!-- footer -->
