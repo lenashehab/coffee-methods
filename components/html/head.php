@@ -29,8 +29,18 @@
 
 </head>
 
-<body id="page-top" class="no-scroll-y">
- 
-  
-   <div class="mouse-cursor cursor-outer"></div>
-<div class="mouse-cursor cursor-inner"></div>
+<body id="page-top" class="no-scroll-y body">
+   
+
+<!-- cursor -->
+<div id="cursor" class="cursor">
+	<div class="ring">
+		<div><!--Border--></div>
+	</div>
+	<div class="ring">
+		<div><!--Pointer--></div>		
+	</div>
+</div>
+<!-- progress barr -->
+<div id="progress-bar"></div>
+
